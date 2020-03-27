@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Control 4</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/controlador.js"></script>
+</head>
+<body>
+	<h1>Control 4</h1>
+	<p>
+	<label>Rut Alumno:</label><br>
+	<input type="text" id="alumno_rut" name="alumno_rut"><br>
+	<label>DV Alumno:</label><br>
+	<input type="text" id="alumno_dv" name="alumno_dv"><br>
+	<label>Nombre Alumno:</label><br>
+	<input type="text" id="alumno_nombre" name="alumno_nombre"><br>
+	<label>Mail Alumno:</label><br>
+	<input type="text" id="alumno_correo" name="alumno_correo"><br>
+	<br>
+	<button type="button" onclick="javascript:Controlador('insertar')">Insertar</button>
+	<button type="button" onclick="javascript:Controlador('modificar')">Modificar</button>
+	<br>
+	<div id="msg"></div>
+</body>
+</html>
